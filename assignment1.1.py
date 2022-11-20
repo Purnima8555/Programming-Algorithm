@@ -71,7 +71,8 @@
 
 
 #7: What is the output of 'APPLE'>'apple'?
-# 'APPLE'>'apple'
+# print('APPLE'>'apple')
+# output:False
 
 
 #8: Write a Python program to display your details like name, age, address in three different lines.
@@ -171,6 +172,7 @@
 # x=5
 # x+=3
 # print(x)
+# output:8
 
 
 #17: A school has following rules for grading system:
@@ -204,20 +206,21 @@
 # user1=int(input("Enter your age(user1): "))
 # user2=int(input("Enter your age(user2): "))
 # user3=int(input("Enter your age(user3): "))
-# if user1<user2 and user1<user3:
-#     print("User1 is youngest")
-#     if user1>user2 and user1>3:
-#         print("User1 is oldest")
-# elif user2<user1 and user2<user3:
-#     print("User2 is youngest")
-#     if user2>user1 and user2>user3:
-#         print("User2 is oldest")
-# elif user3<user1 and user3<user2:
-#     print("User3 is yougest")
-#     if user3>user1 and user3>user2:
-#         print("User3 is oldest")
+# if user1>user2 and user1>user3:
+#     print("User1 is the oldest")
+#     if user2>user3:
+#         print("User3 is the youngest")
+# elif user2>user1 and user2>user3:
+#     print("User2 is the oldest")
+#     if user3>user1:
+#         print("User1 is the youngest")
+# elif user3>user1 and user3>user2:
+#         print("User3 is the oldest")
+#         if user2>user3:
+#           print("User2 is the oldest")
 # else:
 #     print("Error")
+
 
 
 #19: Write a program to check whether a person is eligible for voting or not. (accept age from user)
@@ -281,7 +284,10 @@
 #     print("Error")
 
 
-#24: Write the syntax of simple if statement.
+#24: Write the syntax of simple if-statement.
+# The syntax for if-statement is as follows: if (condition) instruction; The condition evaluates to either true or false.
+# True is always a non-zero value, and false is a value that contains zero.If the Boolean expression evaluates to true, then the block of code inside
+#  the 'if' statement will be executed.
 
 
 #25: Write a program to display "Hello" if a number entered by user is a multiple of five, otherwise print "Bye".
@@ -312,7 +318,7 @@
 
 #27: Write the logical expression for the following:
 # A is greater than B and C is greater than D
-
+# (A>B && C>D)
 
 
 #28: Write a program to check whether a number entered is three digit number or not.
@@ -325,7 +331,10 @@
 
 #29: Write a program to check whether a person is senior citizen or not.
 # age=int(input("Enter your age: "))
-# if age>=
+# if age>=60:
+#     print("You are a senior citizen")
+# else:
+#     print("You are not a senior citizen")
 
 
 #30: Write a program to find the lowest number out of two numbers expected from user.
@@ -358,6 +367,19 @@
 # >=40 and <55                    Fair
 # >=55 and <65	                  Good
 # >=65		                     Excellent	
+# marks=int(input("Enter your total marks: "))
+# per=marks/5
+# print(f"percentage; {per}")
+# if per<40:
+#     print("Failed")
+# elif per>=40 and per<55:
+#     print("Fair")
+# elif per>=55 and per<65:
+#     print("Good")
+# elif per>=65:
+#     print("Excellent")
+# else:
+#     print("Error")
 
 
 #34:  Accept the age, sex('M', 'F'), number of days and display the wages accordingly.
@@ -368,12 +390,37 @@
 # 		          F	             850
 # age=int(input("Enter your age: "))
 # sex=input("Enter your sex[M,F]: ")
-# work_days=int(input("Enter your wrok days: "))
+# work_days=int(input("Enter your work days: "))
 # if age>=18 and age<30 and sex=="M":
-#     print
-
+#     print(f"Your wage is", {700*work_days})
+#     if age>=18 and age<30 and sex=="F":
+#         print(f"Your wage is", {750*work_days})
+# elif age>=30 and age<=40 and sex=="M":
+#     print(f"Your wage is", {800*work_days})
+#     if age>=30 and age<=40 and sex=="F":
+#         print("Your wage is", {850*work_days})
+# else:
+#     print("Your are not eligible for the job")
 
 #35: Accept three numbers from the user and display the second largest number.
+# num1=int(input("Enter the 1st number: "))
+# num2=int(input("Enter the 2nd number: "))
+# num3=int(input("Enter the 3rd number: "))
+# if num1>num2 and num1>num3:
+#     if num2>num3:
+#         print("The second largest number is", num2)
+#     else:
+#         print("The largest number is", num3)
+# elif num2>num1 and num2>num3:
+#     if num1>num3:
+#         print("The second largest number is", num1)
+#     else:
+#         print("The largest number is", num3)
+# else:
+#     if num1>num2:
+#         print("The second largest number is", num1)
+#     else:
+#         print("The second largest number is", num2)
 
 
 #36: Accept the number of days from the user and calculaye the charge for library according to following:
@@ -411,3 +458,17 @@
 # print(not a or b or c)
 # print(not a or not b or not c)
 # print(not(not a or not b or not c))
+
+# output:
+# True
+# True
+# False
+# False
+# False
+# False
+# True
+# True
+# True
+# True
+# False
+# True
