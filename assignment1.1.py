@@ -295,7 +295,7 @@
 # if (num%5)==0:
 #     print("Hello")
 # else:
-#     print("Invalid")
+#     print("Bye")
 
 
 #26: Write a program to accept a number from 1 to 7 and display the name of the day like 1 for sunday, 2 for monday and so on.
@@ -304,14 +304,16 @@
 #     print("Sunday")
 # elif num==2:
 #     print("Monday")
-# elif num==4:
+# elif num==3:
 #     print("Tuesday")
-# elif num==5:
+# elif num==4:
 #     print("Wednesday")
-# elif num==6:
+# elif num==5:
 #     print("Thursday")
-# elif num==7:
+# elif num==6:
 #     print("Friday")
+# elif num==7:
+#     print("Saturday")
 # else:
 #     print("Error")
 
@@ -358,7 +360,13 @@
 # After calculating percentage show that, if the percentage is less than 75, than student will not be able to sit in exam.
 # w_days=int(input("Enter the number of working days: "))
 # a_days=int(input("Enter the number of absent days: "))
-# print(f"Working days; {}")
+# total_days= (w_days+a_days)
+# per= (w_days/total_days)*100
+# print(f"Percentage of working days; {per}")
+# if per>=75:
+#     print("You are eligible to sit in exam")
+# else:
+#     print("You are not eligible to sit in exam")
 
 
 #33:  Write a program to accept percentage and display the category according to the following criteria:
@@ -423,7 +431,7 @@
 #         print("The second largest number is", num2)
 
 
-#36: Accept the number of days from the user and calculaye the charge for library according to following:
+#36: Accept the number of days from the user and calculate the charge for library according to following:
 # Till five days: Rs 2/day
 # Six to ten days: Rs 3/day
 # 11 to 15 days: Rs 4/day
