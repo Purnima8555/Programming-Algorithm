@@ -208,18 +208,16 @@
 # user3=int(input("Enter your age(user3): "))
 # if user1>user2 and user1>user3:
 #     print("User1 is the oldest")
-#     if user2>user3:
-#         print("User3 is the youngest")
-# elif user2>user1 and user2>user3:
-#     print("User2 is the oldest")
-#     if user3>user1:
-#         print("User1 is the youngest")
-# elif user3>user1 and user3>user2:
-#         print("User3 is the oldest")
-#         if user2>user3:
-#           print("User2 is the oldest")
 # else:
-#     print("Error")
+#     print("User1 is the youngest")
+# if user2>user1 and user2>user3:
+#     print("User2 is the oldest")
+# else:
+#     print("User2 is the youngest")
+# if user3>user1 and user3>user2:
+#     print("User3 is the oldest")
+# else:
+#     print("User3 is the youngest")
 
 
 
@@ -401,14 +399,15 @@
 # work_days=int(input("Enter your work days: "))
 # if age>=18 and age<30 and sex=="M":
 #     print(f"Your wage is", {700*work_days})
-#     if age>=18 and age<30 and sex=="F":
+#     if sex=="F":
 #         print(f"Your wage is", {750*work_days})
 # elif age>=30 and age<=40 and sex=="M":
 #     print(f"Your wage is", {800*work_days})
-#     if age>=30 and age<=40 and sex=="F":
-#         print("Your wage is", {850*work_days})
-# else:
-#     print("Your are not eligible for the job")
+#     if sex=="F":
+#         print(f"Your wage is", {850*work_days})
+#     else:
+#         print("You are not eligible for thr job")
+
 
 #35: Accept three numbers from the user and display the second largest number.
 # num1=int(input("Enter the 1st number: "))
@@ -480,3 +479,6 @@
 # True
 # False
 # True
+
+
+#10, 13, 18, 34
