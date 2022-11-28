@@ -3,6 +3,11 @@
 # for i in range(1,11):
 #     print(a)
 
+#OR
+
+# for i in range(1,11):
+#     print("softwarica")
+
 
 #2. Sum of list:
 # sum=0
@@ -10,7 +15,7 @@
 # b=str(a)
 # for i in b:
 #     sum= sum + int(i)
-#     print(sum)
+# print(sum)
 
 
 #3. Print each character using indexing:
@@ -22,12 +27,55 @@
 
 
 #4. Program to display each element of a list:
+# list=[1,2,3,4,5]
+# for item in list:
+#     print(item)
+
+#OR 
+
+# list=[1,2,3,4,5]
+# for i in list:
+#     print(i)
+
+
+#5. multiplication of each element:
+# multiplication=1
+# a=int(input("Enter number: "))
+# b=str(a)
+# for i in b:
+#     multiplication=multiplication*int(i)
+# print(multiplication)
+
+
+#6. multiplication table of a given number:
+# mul=1
+# a=int(input("Enter a number: "))
+# b=str(a)
+# for i in range(1,11):
+#     print(i)
+#     for j in range(1,11):
+#         print(i*j)
+
+# for i in range(1,11):
+#     print(i)
+#     for j in range(1,11):
+#         print(i*j)
+
+
+#7. reverse a list:
+# a=[1,2,3,4,4,6]
+# b=str(a)
+# reverse_string=""
+# for i in a:
+#     reverse_string=i+reverse_string
+# print(reverse_string)
 
 
 #8. Program to count the tottal number of digits in a number:
 # digit=0
 # a=int(input("Enter number: "))
-# for i in str(a):
+# b=str(a)
+# for i in b:
 #     if i.isdigit():
 #         digit=digit+1
 #     else:
@@ -60,15 +108,83 @@
 
 
 #10. Python program to count the number of even and odd numbers from a series of numbers:
+
+
+
 #11. Pyhton program that accepts a string and calculate the number of digites and letters:
-#12. Pyhton progra to check the validity of username and password input by users:
+# a=input("Enter: ")
+# digit=0
+# letter=0
+# for i in a:
+#     if i.isdigit():
+#         digit=digit+1
+#     elif i.isalpha():
+#         letter=letter+1
+#     else:
+#         pass
+# print(digit)
+# print(letter)
+
+
+#12. Pyhton program to check the validity of username and password input by users:
+# username="Ram"
+# password=1234
+# for i in range(3):
+#     username1=input("Enter valid username: ")
+#     password1=int(input("Enter valid password: "))
+#     if username==username1 and password==password1:
+#         print("Logged in")
+#         break
+#     else:
+#         print("Invalid credentials")
+# else:
+#     print("3 attempts finished")
+
+#AND:
+
+# username="Ram"
+# password=1234
+# for i in range(1):
+#     username1=input("Enter valid username: ")
+#     password1=int(input("Enter valid password: "))
+#     if username==username1 and password==password1:
+#         print("Logged in")
+#         break
+# else:
+#     print("Invalid username or password")
+
+
 #13. Program to print the given number is odd or even:
-#14. Factorial of a given :
+# a=int(input("Enter a number: "))
+# if a
+
+
+#14. Factorial of a given number:
+# a=int(input("Enter a number: "))
+# factorial=1
+# for i in range(1,a+1):
+#     factorial=factorial*i       
+# print(factorial)
+
+
 #15. Program to check given number is palindraome or not:
 #16. Pyhton program to check given number is armstrong or not:
 #17. Pyhton program to check a number is perfect square or not:
 #18. Pyhton program to check a number is perfect number or not:
+
+
 #19. Print multiplication table of 1,2,3,4,5,6,7,8
+# for i in range(1,9):
+#     print(i)
+#     for j in range(1,11):
+#         print(i*j)
+
+# for i in range(1,11):
+#     print(i)
+#     for j in range(1,9):
+#         print(i*j)
+
+
 #20. Print the first 10 natural numbers using loop:
 #21. Python program to calculate the sum of all the odd numbers within the given range:
 #22. Python program to calculate the sum of all the even numbers within the given range:
