@@ -401,14 +401,32 @@
 # work_days=int(input("Enter your work days: "))
 # if age>=18 and age<30 and sex=="M":
 #     print(f"Your wage is", {700*work_days})
-#     if sex=="F":
-#         print(f"Your wage is", {750*work_days})
+# elif age>=18 and age<30 and sex=="F":
+#     print(f"Your wage is", {750*work_days})
 # elif age>=30 and age<=40 and sex=="M":
 #     print(f"Your wage is", {800*work_days})
-#     if sex=="F":
-#         print(f"Your wage is", {850*work_days})
+# elif age>=30 and age<=40 and sex=="F":
+#     print(f"Your age is", {850*work_days})
+# else:
+#     print("You are not eligible for the job")
+
+#OR
+
+# age=int(input("Enter the age: "))
+# sex=input("Enter the sex[M,F]: ")
+# work_days=int(input("Enter the working days: "))
+# if age>=18 and age<30:
+#     if sex=="M":
+#         print(f"Your age is", {700*work_days})
 #     else:
-#         print("You are not eligible for thr job")
+#         print(f"Your wage is", {750*work_days})
+# elif age>=30 and age<=40:
+#     if sex=="M":
+#         print(f"Your wage is", {800*work_days})
+#     else:
+#         print(f"Your wage is", {850*work_days})
+# else:
+#     print("Ypur are not eligible for the job")
 
 
 #35: Accept three numbers from the user and display the second largest number.
@@ -483,4 +501,4 @@
 # True
 
 
-#10, 13, 18, 34
+#10, 13, 18
