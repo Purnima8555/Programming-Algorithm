@@ -63,11 +63,26 @@
 
 
 #7. reverse a list:
-# a=[1,2,3,4,4,6]
+# list=[1,2,3,4,5,6]
+# reversed_list=[]
+# for value in list:
+#     reversed_list=[value]+reversed_list
+# print("Reversed list:",reversed_list )
+
+#OR
+
+# a=[ 1,2,3,4,5,6 ]
 # b=str(a)
 # reverse_string=""
-# for i in a:
+# for i in b:
 #     reverse_string=i+reverse_string
+# print(reverse_string)
+
+# 7.reverse string:
+# list="12345"
+# reverse_string=""
+# for i in list:
+#    reverse_string=i+reverse_string
 # print(reverse_string)
 
 
@@ -108,6 +123,16 @@
 
 
 #10. Python program to count the number of even and odd numbers from a series of numbers:
+# a=int(input("Enter series of number: "))
+# b=str(a)
+# digit=0
+# for i in b:
+#     if i.isdigit() and a%2==0:
+#         digit=digit+1
+#         print(digit)
+#         break
+
+
 
 
 
@@ -155,8 +180,14 @@
 
 
 #13. Program to print the given number is odd or even:
-# a=int(input("Enter a number: "))
-# if a
+# for i in range(1):
+#     a=int(input("Enter a number: "))
+#     b=a%2
+#     if b==0:
+#        print({a},"is an even number")
+#        break
+# else:
+#        print({a},"is an odd number")
 
 
 #14. Factorial of a given number:
@@ -167,10 +198,15 @@
 # print(factorial)
 
 
-#15. Program to check given number is palindraome or not:
+#15. Program to check given number is palindrome or not:
+
+
+
 #16. Pyhton program to check given number is armstrong or not:
 #17. Pyhton program to check a number is perfect square or not:
-#18. Pyhton program to check a number is perfect number or not:
+#18. Pyhton program to check a number is perfect number or not: [perfect number:6,28,496,8128]
+# a=int(input("Enter a number: "))
+
 
 
 #19. Print multiplication table of 1,2,3,4,5,6,7,8
@@ -186,7 +222,41 @@
 
 
 #20. Print the first 10 natural numbers using loop:
+# for i in range(1,11):
+#     print("Natural number:",i)
+
+
 #21. Python program to calculate the sum of all the odd numbers within the given range:
+
 #22. Python program to calculate the sum of all the even numbers within the given range:
+
+
+
 #23. Python program to count the space of a given string:
+# a=input("Enter anythong: ")
+# space=0
+# for i in a:
+#     if i.isspace():
+#         space=space+1
+#     else:
+#         pass
+# print("Number of spaces:",space)
+
+
 #24. Pyhton program that accepts a string and calculate the number of digits,letters and space:
+# a=input("Enter anything: ")
+# digit=0
+# letter=0
+# space=0
+# for i in a:
+#     if i.isdigit():
+#         digit=digit+1
+#     elif i.isalpha():
+#         letter=letter+1
+#     elif i.isspace():
+#         space=space+1
+#     else:
+#         pass
+# print("Number of digits;",digit)
+# print("Number of letters;",letter)
+# print("Number of spaces;",space)
