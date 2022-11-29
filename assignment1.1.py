@@ -89,6 +89,10 @@
 #  the number of students in each of the three classes, a, b and c respectively.
 # Hint:[In the first test there are three groups. The first group has 20 students and thus needs 10 desks. The second group has 21 students, 
 # so they can get by with no fewer than 11 desks. 11 desks are also enough for the third group of 22 students. So, we need 32 desks in total.]
+# a=int(input("Enter the number: "))
+# b=int(input("Enter the number: "))
+# c=int(input("Enter the number: "))
+# print(f"The least number of desks are",a//2+b//2+c//2+a%2+b%2+c%2)
 
 
 #11: Write a python program which calculates tax of an employee with given condition:
@@ -128,6 +132,8 @@
 # single student get? How many apples will remain in the basket? The program reads the numbers N and K. It should print the two answers for the questions above.
 # s=int(input("Enter the number of students: "))
 # a=int(input("Enter the number of apples: "))
+# print(f"Each students will get",a/s)
+# print(f"The apples in the basket will be",a%s)
 
 
 #14: Check whether 5 is in list of first 5 natural numbers or not. Hint: List => [1,2,3,4,5]
@@ -205,22 +211,21 @@
 
 
 #18: Take input of age of 3 people by user and determine oldest and youngest among them.
-# user1=int(input("Enter your age(user1): "))
-# user2=int(input("Enter your age(user2): "))
-# user3=int(input("Enter your age(user3): "))
+# user1= int(input("Enter the age: "))
+# user2= int(input("Enter the age: "))
+# user3= int(input("Enter the age: "))
 # if user1>user2 and user1>user3:
 #     print("User1 is the oldest")
-# else:
-#     print("User1 is the youngest")
-# if user2>user1 and user2>user3:
+# elif user2>user1 and user2>user3:
 #     print("User2 is the oldest")
 # else:
-#     print("User2 is the youngest")
-# if user3>user1 and user3>user2:
-#     print("User3 is the oldest")
+#     print("age_3 is the oldest")
+# if user1<user2 and user1<user3:
+#     print("age_1 is the youngest")
+# elif user2<user1 and user2<user3:
+#     print("age_2 is the youngest")
 # else:
-#     print("User3 is the youngest")
-
+#     print("age_3 is the youngest")
 
 
 #19: Write a program to check whether a person is eligible for voting or not. (accept age from user)
@@ -473,18 +478,18 @@
 # b=True
 # c=True
 # d=True
-# print(c)
-# print(d)
-# print(not a)
-# print(not b)
-# print(not c)
-# print(not d)
-# print(a and b)
-# print(a or b)
-# print(a and b or c)
-# print(not a or b or c)
-# print(not a or not b or not c)
-# print(not(not a or not b or not c))
+# print(c)  = True
+# print(d)  = True
+# print(not a)  = False
+# print(not b)  = False
+# print(not c)  = False
+# print(not d)  = False
+# print(a and b) = True
+# print(a or b)  = True
+# print(a and b or c) = True
+# print(not a or b or c) = True
+# print(not a or not b or not c) = False
+# print(not(not a or not b or not c)) = True
 
 # output:
 # True
@@ -500,5 +505,4 @@
 # False
 # True
 
-
-#10, 13, 18
+#10,18
