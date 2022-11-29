@@ -48,18 +48,9 @@
 
 
 #6. multiplication table of a given number:
-# mul=1
-# a=int(input("Enter a number: "))
-# b=str(a)
+# num=int(input("Enter a number: "))
 # for i in range(1,11):
-#     print(i)
-#     for j in range(1,11):
-#         print(i*j)
-
-# for i in range(1,11):
-#     print(i)
-#     for j in range(1,11):
-#         print(i*j)
+#     print(num,'*',i,'=',num*i)
 
 
 #7. reverse a list:
@@ -73,12 +64,12 @@
 
 # a=[ 1,2,3,4,5,6 ]
 # b=str(a)
-# reverse_string=""
+# reverse_string=" "
 # for i in b:
 #     reverse_string=i+reverse_string
 # print(reverse_string)
 
-# 7.reverse string:
+# 7. reverse string:
 # list="12345"
 # reverse_string=""
 # for i in list:
@@ -131,7 +122,7 @@
 #         digit=digit+1
 #         print(digit)
 #         break
-
+    
 
 
 
@@ -204,9 +195,19 @@
 
 #16. Pyhton program to check given number is armstrong or not:
 #17. Pyhton program to check a number is perfect square or not:
-#18. Pyhton program to check a number is perfect number or not: [perfect number:6,28,496,8128]
-# a=int(input("Enter a number: "))
+num=int(input("Enter the number: "))
 
+
+#18. Pyhton program to check a number is perfect number or not: [perfect number:6,28,496,8128]
+# num=int(input("Enter a number: "))
+# sum=0
+# for i in range(1,num):
+#     if num%i==0:
+#         sum=sum+1
+# if(sum==num):
+#      print("The number is perfect number")
+# else:
+#      print("The number is not perfect number")
 
 
 #19. Print multiplication table of 1,2,3,4,5,6,7,8
@@ -229,7 +230,8 @@
 #21. Python program to calculate the sum of all the odd numbers within the given range:
 
 #22. Python program to calculate the sum of all the even numbers within the given range:
-
+# for i in range(1,11):
+    # if 
 
 
 #23. Python program to count the space of a given string:
