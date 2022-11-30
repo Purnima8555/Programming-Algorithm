@@ -1,3 +1,5 @@
+#FOR LOOP QUESTION ANSWERS:
+
 #1. Print "softwarica" 10 times:
 # a="softwarica"
 # for i in range(1,11):
@@ -113,19 +115,19 @@
 #     print("It is not a prime number")
 
 
-#10. Python program to count the number of even and odd numbers from a series of numbers:
+#10. Python program to count the number of even and odd numbers from a series of numbers: [to find even and odd within the range of numbers]
 # a=int(input("Enter series of number: "))
-# b=str(a)
-# digit=0
-# for i in b:
-#     if i.isdigit() and a%2==0:
-#         digit=digit+1
-#         print(digit)
-#         break
+# odd=0
+# even=0
+# for i in range(a):
+#     if i%2==0:
+#         even=even+1
+#     else:
+#         odd=odd+1
+      
+# print(even)
+# print(odd)
     
-
-
-
 
 #11. Pyhton program that accepts a string and calculate the number of digites and letters:
 # a=input("Enter: ")
@@ -190,12 +192,13 @@
 
 
 #15. Program to check given number is palindrome or not:
+# a=int(input("Enter a number: "))
 
 
 
 #16. Pyhton program to check given number is armstrong or not:
 #17. Pyhton program to check a number is perfect square or not:
-num=int(input("Enter the number: "))
+# num=int(input("Enter the number: "))
 
 
 #18. Pyhton program to check a number is perfect number or not: [perfect number:6,28,496,8128]
