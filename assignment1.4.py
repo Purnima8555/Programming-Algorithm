@@ -1,4 +1,5 @@
-# Pattern Design:
+# PATTERN DESIGN:
+
 #Writing the letters of my name:
 
 # for row in range(6):
