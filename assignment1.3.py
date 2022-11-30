@@ -124,7 +124,7 @@
 #         even=even+1
 #     else:
 #         odd=odd+1
-      
+
 # print(even)
 # print(odd)
     
@@ -192,11 +192,23 @@
 
 
 #15. Program to check given number is palindrome or not:
-# a=int(input("Enter a number: "))
 
+
+
+#15. using if else condition: 
+# a=int(input("Enter a number: "))
+# b=str(a)
+# reverse=int(b[::-1])
+# if a==reverse:
+#     print("It's palindrome")
+# else:
+#     print("It's not palindrome")
 
 
 #16. Pyhton program to check given number is armstrong or not:
+
+
+
 #17. Pyhton program to check a number is perfect square or not:
 # num=int(input("Enter the number: "))
 
@@ -217,12 +229,8 @@
 # for i in range(1,9):
 #     print(i)
 #     for j in range(1,11):
-#         print(i*j)
-
-# for i in range(1,11):
-#     print(i)
-#     for j in range(1,9):
-#         print(i*j)
+#         print(i,'*',j,'=',i*j)
+#         pass
 
 
 #20. Print the first 10 natural numbers using loop:
@@ -231,10 +239,25 @@
 
 
 #21. Python program to calculate the sum of all the odd numbers within the given range:
+# a=int(input("Enter a number: "))
+# sum=0
+# for i in range(1,a+1):
+#     if i%2!=0:
+#         sum=sum+1
+#     else:
+#         pass
+# print(sum)
+
 
 #22. Python program to calculate the sum of all the even numbers within the given range:
-# for i in range(1,11):
-    # if 
+# a=int(input("Enter a number: "))
+# sum=0
+# for i in range(1,a+1):
+#     if i%2==0:
+#         sum=sum+1
+#     else:
+#         pass
+# print(sum)
 
 
 #23. Python program to count the space of a given string:
@@ -265,3 +288,5 @@
 # print("Number of digits;",digit)
 # print("Number of letters;",letter)
 # print("Number of spaces;",space)
+
+#15*, 16, 17, 21*, 22*
