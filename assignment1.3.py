@@ -79,7 +79,7 @@
 # print(reverse_string)
 
 
-#8. Program to count the tottal number of digits in a number:
+#8. Program to count the total number of digits in a number:
 # digit=0
 # a=int(input("Enter number: "))
 # b=str(a)
@@ -158,7 +158,7 @@
 # else:
 #     print("3 attempts finished")
 
-#AND:
+# AND:
 
 # username="Ram"
 # password=1234
@@ -191,14 +191,31 @@
 # print(factorial)
 
 
-#15. Program to check given number is palindrome or not:
+#15. Program to check given word is palindrome or not:
+# [palindrome=meaning a word/str sounds and spells same after reversed]
+# a=input("Enter a string: ")
+# reverse=a[::-1]
+# for i in a:
+#     if a==reverse:
+#         print("It's palindrome")
+#         break
+# else:
+#         print("It's not palindrome")
 
-
+#15. To check if a number is palindrome:
+# a=str(input("Enter number: "))
+# b=str(a)
+# reverse=b[::-1]
+# for i in b:
+#     if b==reverse:
+#         print("It's palindrome")
+#         break
+# else:
+#         print("It's not palindrome")
 
 #15. using if else condition: 
-# a=int(input("Enter a number: "))
-# b=str(a)
-# reverse=int(b[::-1])
+# a=input("Enter a string: ")
+# reverse=a[::-1]
 # if a==reverse:
 #     print("It's palindrome")
 # else:
@@ -289,4 +306,4 @@
 # print("Number of letters;",letter)
 # print("Number of spaces;",space)
 
-#15*, 16, 17, 21*, 22*
+# 16, 17, 21*, 22*
