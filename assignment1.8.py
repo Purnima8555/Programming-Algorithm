@@ -6,8 +6,8 @@
 
 # win.title("Log In")
 
-# win.minsize(width=300,height=100)
-# win.maxsize(width=300,height=100)
+# win.minsize(width=300,height=300)
+# win.maxsize(width=300,height=300)
 
 # email=Label(win,text="Email: ").grid(row=0, column=0)
 # e1=Entry(win).grid(row=0,column=1)
@@ -28,7 +28,7 @@
 # win.minsize(width=500,height=300)
 # win.maxsize(width=500,height=300)
 
-# win.configure(bg='light pink')
+# win.configure(bg='light blue')
 
 # f_name=Label(win,text="First Name: ").grid(row=0, column=0)
 # e1=Entry(win).grid(row=0, column=1)
@@ -40,12 +40,14 @@
 # e4=Entry(win).grid(row=2, column=1)
 # password=Label(win,text="Password: ").grid(row=3, column=0)
 # e5=Entry(win).grid(row=3, column=1)
+# confirm_pw=Label(win,text="Confirm Password: ").grid(row=4, column=0)
+# e6=Entry(win).grid(row=4, column=1)
 
 # check_value=IntVar
 # check_box=Checkbutton(text="Remember me?", variable=check_value)
-# check_box.grid(row=4, column=1)
+# check_box.grid(row=6, column=1)
 
-# submit=Button(win, text="Submit").grid(row=6, column=1)
+# submit=Button(win, text="Submit").grid(row=8, column=1)
 
 # win.mainloop()
 
@@ -88,7 +90,7 @@
 # root.maxsize(width=600,height=300)
 # root.minsize(width=600,height=300)
 
-#function:
+# #function:
 # def add():
 #     x=var.get()
 #     print(x)
@@ -133,3 +135,30 @@
 # lbl.place(x=200, y=300)
 
 # root.mainloop()
+
+
+# Adding Frames to program:
+# from tkinter import *
+# window=Tk()
+# frame=LabelFrame(window, text="This is my frame",padx=10,pady=10)
+# frame.pack(padx=50, pady=50)
+# b=Button(frame, text="Don't click here")
+# b2=Button(frame, text=".....here")
+# b.grid(row=0, column=0)
+# b2.grid(row=1, column=1)
+# window.mainloop()
+
+
+# Radio Button:
+# from tkinter import *
+# window=Tk()
+# def add():
+#     print(var.get())
+
+# var=IntVar()
+# var1=Radiobutton(window, text=" Male", variable=var, value=1, command=add)
+# var1.pack(anchor=W)
+# var2=Radiobutton(window, text="Female", variable=var, value=2, command=add)
+# var2.pack(anchor=W)
+
+# window.mainloop()
