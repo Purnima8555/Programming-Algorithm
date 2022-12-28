@@ -18,6 +18,47 @@
 
 # win.mainloop()
 
+# OR
+# from tkinter import *
+# root=Tk()
+
+# root.title("Log In")
+# root.configure(bg="light green")
+
+# root.minsize(width=400, height=300)
+# root.maxsize(width=400, height=300)
+
+# from PIL import Image, ImageTk
+# my_image=ImageTk.PhotoImage(Image.open("images.jpeg"))
+# my_label=Label(image=my_image)
+# my_label.pack()
+
+# email=Label(root, text="Email: ").place(x=30,y=50)
+# e1=Entry(root).place(x=90, y=50)
+# password=Label(root, text="Password: ").place(x=30,y=90)
+# e2=Entry(root).place(x=90, y=90)
+
+# def func():
+#     print("Logged In")
+
+# btn=Button(root, text="Login", command=func)
+# btn.place(x=140, y=120)
+
+# root.mainloop()
+
+# from tkinter import *
+# win=Tk()
+# win.geometry('300x300')
+# def func():
+#     print("Hello Python")
+
+# btn1=Button(win,text="Login", command=func)
+# btn1.pack(side="top")
+# btn2=Button(win,text="Register", command=func)
+# btn2.pack(side="top")
+
+# win.mainloop()
+
 
 # Registration page:
 # from tkinter import *
@@ -162,3 +203,121 @@
 # var2.pack(anchor=W)
 
 # window.mainloop()
+
+
+# from tkinter import *
+# window=Tk()
+# def add():
+#     selection="you have selected the option"+str(var.get())
+#     label.config(text=selection)
+
+# var=IntVar()
+# r1=Radiobutton(window, text="Option 1", variable=var, value=1, command=add)
+# r1.pack(anchor=W)
+# r2=Radiobutton(window, text="Option 2", variable=var, value=2, command=add)
+# r2.pack(anchor=W)
+# r3=Radiobutton(window, text="Option 3", variable=var, value=3, command=add)
+# r3.pack(anchor=W)
+# label=Label(window)
+# label.pack()
+
+# window.mainloop()
+
+
+# to import message box:
+# from tkinter import *
+# top=Tk()
+# def add():
+#     label.config(text=CheckVar.get())
+# CheckVar1=IntVar()
+
+# C1=Checkbutton(top, text="Music", variable=CheckVar1, \
+#                 onvalue=1, offvalue=0, height=5, \
+#                     width=20
+#                     )
+
+# C1.pack()
+# btn=Button(top, text="Click", command=add)
+# label=Label(top, text="")
+# label.pack()
+# btn.pack()
+
+# top.mainloop()
+
+
+# install pip
+# pip install pillow
+# Images as background:
+# from tkinter import *
+# from PIL import Image, ImageTk
+# window=Tk()
+# window.title("Log In")
+
+# # define image
+# my_image=ImageTk.PhotoImage(Image.open("images.jpeg"))
+
+# # create a label
+# my_label=Label(image=my_image)
+# my_label.pack()
+
+# # Button quit option
+# button_quit=Button(window, text="Exit", command=window.quit, width=20)
+# button_quit.pack()
+# window.mainloop()
+
+
+# registration page
+# from tkinter import *
+# root=Tk()
+
+# root.maxsize(width=500, height=300)
+# root.minsize(width=500, height=300)
+
+# root.configure(bg="light green")
+
+# root.title("Sign Up")
+
+# def register_value():
+#     print("successfully saved")
+
+# # Label(root, text="Python Registration Form",).grid(row=0,column=4)
+
+# fname_user = Label(root, text="First Name: ")
+# fname_user.grid(row=1, column=2)
+# lname_user = Label(root, text="Last Name: ")
+# lname_user.grid(row=1, column=4)
+# branch_user = Label(root, text="Branch: ")
+# branch_user.grid(row=2, column=2)
+# gender_user = Label(root, text="Gender: ")
+# gender_user.grid(row=3, column=2)
+# phone_user =Label(root, text="Contact no.: ")
+# phone_user.grid(row=4, column=2)
+# country_user = Label(root, text="Country: ")
+# country_user.grid(row=5, column=2)
+
+# fname_value = StringVar
+# lname_value = StringVar
+# branch_value = StringVar
+# gender_value = StringVar
+# phone_value = StringVar
+# country_value = StringVar
+# check_value = IntVar
+
+# fname_box = Entry(root, textvariable = fname_value)
+# fname_box.grid(row=1, column=3)
+# lname_box = Entry(root, textvariable = lname_value)
+# lname_box.grid(row=1, column=5)
+# branch_box = Entry(root, textvariable = branch_value)
+# branch_box.grid(row=2, column=3)
+# gender_box = Entry(root, textvariable = gender_value)
+# gender_box.grid(row=3, column=3)
+# phone_box = Entry(root, textvariable = phone_value)
+# phone_box.grid(row=4, column=3)
+# country_box = Entry(root, textvariable = country_value)
+# country_box.grid(row=5, column=3)
+# check_box=Checkbutton(root, text="Remember me?", variable=check_value)
+# check_box.grid(row=6, column=3)
+
+# register_values=Button(root, text="Register").grid(row=8, column=4)
+
+# root.mainloop()
