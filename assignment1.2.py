@@ -1,4 +1,4 @@
-#IF ELSE QUESTIONS AND ANSWERS:
+#IF ELSE QUESTIONS AND ANSWERS:(Advance)
 
 #1. Write a program to accept the cost price of a bike and display the road tax to be paid according to the following criteria:
 # Cost price(in Rs)                  Tax
