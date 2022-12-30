@@ -19,48 +19,58 @@
 # win.mainloop()
 
 # OR
+
 # from tkinter import *
 # root=Tk()
 
 # root.title("Log In")
 # root.configure(bg="light green")
-
+# # #root.geometry("400x300")
 # root.minsize(width=400, height=300)
 # root.maxsize(width=400, height=300)
 
 # from PIL import Image, ImageTk
-# my_image=ImageTk.PhotoImage(Image.open("images.jpeg"))
-# my_label=Label(image=my_image)
+# my_image=Image.open("images.jpeg")
+# resize_image=my_image.resize((400,350))
+# converted_image=ImageTk.PhotoImage(resize_image)
+# my_label=Label(root, image=converted_image, width=400, height=380)
 # my_label.pack()
 
-# email=Label(root, text="Email: ").place(x=30,y=50)
-# e1=Entry(root).place(x=90, y=50)
-# password=Label(root, text="Password: ").place(x=30,y=90)
-# e2=Entry(root).place(x=90, y=90)
+# username=Label(root, text="Username: ").place(x=30, y=50)
+# e1=Entry(root).place(x=120, y=50)
+# email=Label(root, text="Email: ").place(x=30,y=90)
+# e1=Entry(root).place(x=120, y=90)
+# password=Label(root, text="Password: ").place(x=30,y=130)
+# e2=Entry(root).place(x=120, y=130)
 
 # def func():
 #     print("Logged In")
 
 # btn=Button(root, text="Login", command=func)
-# btn.place(x=140, y=120)
+# btn.place(x=170, y=160)
 
 # root.mainloop()
 
+
+#2. if log in is clicked then print"Hello python" and if registration is clicked then print"Hello softwarica":
 # from tkinter import *
 # win=Tk()
 # win.geometry('300x300')
+
 # def func():
 #     print("Hello Python")
-
 # btn1=Button(win,text="Login", command=func)
 # btn1.pack(side="top")
+
+# def func():
+#     print("Hello Softwarica")
 # btn2=Button(win,text="Register", command=func)
 # btn2.pack(side="top")
 
 # win.mainloop()
 
 
-# Registration page:
+#3. Registration page:
 # from tkinter import *
 # win=Tk()
 
@@ -93,7 +103,7 @@
 # win.mainloop()
 
 
-#2. Make log in button and registration button:
+#4. Make log in button and registration button:
 # if log in is clicked then print"Hello python" and if registration is clicked then print"Hello softwarica":
 # from tkinter import *
 # win=Tk()
@@ -109,7 +119,7 @@
 # win.mainloop()
 
 
-#3. Creating buttons that prints a certain statement:
+#5. Creating buttons that prints a certain statement:
 # from tkinter import *
 # window=Tk()
 # window.geometry('300x300')
@@ -121,10 +131,10 @@
 # my_button.pack()
 # window.mainloop()
 
-#4. to disable the button:
+#6. to disable the button:
 
 
-#5. 
+#7. 
 # from tkinter import *
 # root=Tk()
 # root.title("GUI")
@@ -159,7 +169,7 @@
 # root.mainloop()
 
 
-# from tkinter import *
+#8. from tkinter import *
 # root=Tk()
 
 # def click():
@@ -178,7 +188,7 @@
 # root.mainloop()
 
 
-# Adding Frames to program:
+#9. Adding Frames to program:
 # from tkinter import *
 # window=Tk()
 # frame=LabelFrame(window, text="This is my frame",padx=10,pady=10)
@@ -190,7 +200,7 @@
 # window.mainloop()
 
 
-# Radio Button:
+#10. Radio Button:
 # from tkinter import *
 # window=Tk()
 # def add():
@@ -205,6 +215,7 @@
 # window.mainloop()
 
 
+#11. 
 # from tkinter import *
 # window=Tk()
 # def add():
@@ -224,6 +235,7 @@
 # window.mainloop()
 
 
+#12. 
 # to import message box:
 # from tkinter import *
 # top=Tk()
@@ -247,7 +259,8 @@
 
 # install pip
 # pip install pillow
-# Images as background:
+
+#13. Images as background:
 # from tkinter import *
 # from PIL import Image, ImageTk
 # window=Tk()
@@ -266,7 +279,7 @@
 # window.mainloop()
 
 
-# registration page
+#14. registration page
 # from tkinter import *
 # root=Tk()
 
