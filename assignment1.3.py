@@ -306,4 +306,4 @@
 # print("Number of letters;",letter)
 # print("Number of spaces;",space)
 
-# 16, 17, 21*, 22*
+# 16, 17, 21**, 22*
