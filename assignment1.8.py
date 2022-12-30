@@ -1,3 +1,4 @@
+# TKINTER:
 #1. Make Login and Registration page:
 
 # Log in page:
@@ -215,7 +216,7 @@
 # window.mainloop()
 
 
-#11. 
+#11. Adding buttons with command:
 # from tkinter import *
 # window=Tk()
 # def add():
@@ -235,7 +236,7 @@
 # window.mainloop()
 
 
-#12. 
+#12. Adding music check box:
 # to import message box:
 # from tkinter import *
 # top=Tk()
