@@ -179,10 +179,10 @@
 #     print("Hi exists in ditionary")
 
 
-# write a python problem to iterate over sets
+#25. write a python problem to iterate over sets
 # a={1,2,"Hello",3,"Why"}
 # for i in a:
 #     print(i)
 
 
-# 13*, 17*, 21*, 228*
+# 13*, 17*, 21*
