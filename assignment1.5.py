@@ -1,7 +1,10 @@
 #WHILE LOOP QUESTIONS AND ANSWERS:
 
 #1. Print "softwarica" 10 times:
-
+# i=1
+# while i<=10:
+#     print("softwarica")
+#     i=i+1
 
 
 #2. Sum of list:
@@ -21,12 +24,34 @@
 
 
 #6. Multiplication table of a given number:
+# num=int(input("Enter a number: "))
+# count=1
+# while count <=10:
+#     product=num*count
+#     print(num,"*",count,"=",product)
+#     count=count+1
 
+# reverse multiplication table:
+# num=int(input("Enter a number: "))
+# count=10
+# while count >=1:
+#     product=num*count
+#     print(num,"*",count,"=",product)
+#     count -=1
 
 
 #7. Reverse a list:
+# list=[1,2,3,4,5,6]
+# reversed_list=[]
+# while list:
+#     print(reversed_list)
+#     list -=1
 
-
+# list=[1,2,3,4,5,6]
+# reversed_list=[]
+# for value in list:
+#     reversed_list=[value]+reversed_list
+# print("Reversed list:",reversed_list )
 
 #8. Program to count the total number of digits in a number:
 
