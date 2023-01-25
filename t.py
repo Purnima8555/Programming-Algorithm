@@ -285,3 +285,21 @@
 
 # turtle.done()
 # sc.exitonclick()
+
+# Make a star using turtle:
+# import turtle
+# sc=turtle.Screen()
+# t=turtle.Turtle()
+# turtle.bgcolor("black")
+# turtle.pensize(2)
+# turtle.speed(0)
+
+# while (True):
+#     for i in range(5):
+#         for color in ["yellow"]:
+#             t.forward(200)
+#             t.left(230)
+
+#     turtle.done()
+
+
